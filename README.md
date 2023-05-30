@@ -135,7 +135,7 @@ This our Sem-4 mini project.
 
 ## Limitations
 
-- Shows results on the screen based on only one input images.
+- Shows results on the screen based on only one input images. No Dataset is used.
 - No Showing Analysis of the overall exercise.
 
 
