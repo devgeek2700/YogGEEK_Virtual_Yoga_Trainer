@@ -10,6 +10,9 @@ Additionally, the system can analyze the user's posture and movements during yog
 injury. The virtual yoga trainer can make yoga more accessible to people who may not have access to
 traditional yoga classes, promote regular yoga practice, and improve users' physical and mental wellbeing. The paper discusses the objectives of the virtual yoga trainer, the potential benefits for users,
 and the evaluation metrics for measuring the effectiveness of the system.
+
+It detects 18 yoga poses.
+This project got 2nd position in VNPS Competition.
 ## Proccess
 
 • GUI is created with the help of CSS, HTML and Java Script.
