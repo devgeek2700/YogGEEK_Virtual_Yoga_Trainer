@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select The ONE!</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/select.css')}}">
+  <!-- <script type="text/javascript" src="{{url_for('static', filename='script/index.js')}}"></script>   -->
+
+
+</head>
+<body>
+     
+    <section class="select_container">
+      <h3>Help YogiJi?</h3>
+      <div class="select_row">
+        <div class="select_card">
+            <!-- image -->
+            <img src="{{url_for('static', filename='Images/learn_tut.png')}}" alt="bg_img" class="select_img">
+            <!-- description -->
+            <h2>Learn Tutorials</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur culpa magni accusamus sed deleniti quis repellat veritatis perspiciatis error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nisi.</p>
+            <!-- learn btn -->
+            <form action="/tutorials">
+                <button class="tut_btn">Learn More <span id="tut_arrow">&#x2192;</span></button>
+            </form>
+        </div>
+
+        <div class="select_card">
+            <!-- image -->
+            <img src="{{url_for('static', filename='Images/learn_pract.png')}}" alt="bg_img" class="select_img">
+            <!-- description -->
+            <h2>Practice Poses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur culpa magni accusamus sed deleniti quis repellat veritatis perspiciatis error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nisi.</p>
+            <!-- learn btn -->
+            <form action="/tracks">
+                <button class="tut_btn">Learn More <span id="tut_arrow">&#x2192;</span></button>
+            </form>
+        </div>
+
+        <!-- <div class="select_card">
+           
+            <img src="{{url_for('static', filename='Images/learn_fun.png')}}" alt="bg_img" class="select_img">
+            
+            <h2>Have FUN!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur culpa magni accusamus sed deleniti quis repellat veritatis perspiciatis error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nisi.</p>
+            
+            <form action="/game">
+                <button class="tut_btn">Learn More <span id="tut_arrow">&#x2192;</span></button>
+            </form>
+        </div> -->
+      </div>
+    </section>
+</body>
+</html>

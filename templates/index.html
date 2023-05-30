@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YogGEEK</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+<!-- Yoga_images/yog_logo_f.png -->
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+  <script type="text/javascript" src="{{url_for('static', filename='script/index.js')}}"></script>  
+
+
+</head>
+<body>
+     
+    <section class="home_container">
+       <nav>
+        <h3>YogGEEK</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="{{url_for('Blog')}}">Blog</a></li>
+          <li><a href="{{url_for('About')}}">About Us</a></li>
+          <li><a href="{{url_for('Contact')}}">Contact Us</a></li>
+        </ul>
+
+        <div class="user_profile">
+          <form action="/login">
+            <button class="log-in_btn">Log In</button>
+          </form>
+          
+          <form action="/register">
+            <button class="sig-in_btn">Sign Up</button>
+          </form>
+      </div>
+       </nav>
+
+      <div class="user_content">
+        <h3 id="login_head">Hello, <span id="login_user">{{current_user.User_name}}</h4></h3>
+       </div>
+
+
+       <div class="home_text">
+        <div class="home_col1">
+          <h1>YogGEEK</h1>
+          <p>PRESENTS</p>
+          <h2>Your Personal <br>
+          AI Yoga Trainer</h2>
+         
+          <h3 id="yog_head">YogiJi</h3>
+          <form action="/select">
+            <button class="start_btn">Let's Start</button>
+          </form>
+
+        </div>
+        <div class="home_col2">
+          <img src="{{url_for('static', filename='Images/yoga_bg_flask.png')}}" alt="bg_img" class="yoga_bg">
+        </div>
+
+        </div>
+
+        <!-- page counter -->
+        
+        <div class="counter">
+          <div class="col_1">
+              <div class="sub_col">
+                  <span>+</span>
+                  <h3 class="num" data-val="300">300<span>+</span></h3>
+              </div>
+              <p>expert coaches</p>
+          </div>
+          <div class="col_1">
+              <div class="sub_col">
+                  <span>+</span>
+                  <h3 class="num" data-val="2000">3000</h3>
+              </div>
+              <p>members joined</p>
+          </div>
+          <div class="col_1">
+              <div class="sub_col">
+                  <span>+</span>
+                  <h3 class="num" data-val="600">600</h3>
+              </div>
+              <p>fitness programs</p>
+          </div>
+          <div class="col_1">
+              <div class="sub_col">
+                  <span>+</span>
+                  <h3 class="num" data-val="400">400</h3>
+              </div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+      </div>
+    </section>
+
+</body>
+</html>

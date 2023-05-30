@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intermediate Pose</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/intermediate.css')}}">
+  <!-- <script type="text/javascript" src="{{url_for('static', filename='script/script.js')}}"></script>   -->
+
+
+</head>
+<body>
+     
+    <section class="home_container">
+       <nav>
+        <h3>YogGEEK</h3>
+        <ul>
+          <li><a href="{{url_for('index')}}">Home</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+
+        <div class="user_profile">
+          <button class="log-in_btn">Log In</button>
+          <button class="sig-in_btn">Sign Up</button>
+      </div>
+       </nav>
+
+       <div class="pose_box">
+        <h2>INTERMEDIATE YOGA POSE</h2>
+            <div class="pose_col1">
+                <div class="Pose_row">
+                    <div class="pose_card">
+                        <img src="{{url_for('static', filename='Images/cat_p.jpg')}}" alt="pose" class="pose_img">
+                        <h3>Cat Cow Pose</h3>
+                        <p>(Marjariasana)</p>
+                        <p id="para_pose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum fugit iusto ad quae molestias ut sapiente laborum adipisci dignissimos!</p>
+
+                        <form action="/iPoses1">
+                            <button class="pose_st_btn">GET STARTED</button>
+                        </form>
+                    </div>
+                    <div class="pose_card">
+                        <img src="{{url_for('static', filename='Images/camel_p.jpg')}}" alt="pose" class="pose_img">
+                        <h3>Camel Pose</h3>
+                        <p>(Ustrasana)</p>
+                        <p id="para_pose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum fugit iusto ad quae molestias ut sapiente laborum adipisci dignissimos!</p>
+
+                        <form action="/iPoses2">
+                            <button class="pose_st_btn">GET STARTED</button>
+                        </form>
+                    </div>
+                    <div class="pose_card">
+                        <img src="{{url_for('static', filename='Images/Sphinx-Pose.jpg')}}" alt="pose" class="pose_img">
+                        <h3>Sphinx Pose</h3>
+                        <p>(Salamba Bhujangasana)</p>
+                        <p id="para_pose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum fugit iusto ad quae molestias ut sapiente laborum adipisci dignissimos!</p>
+
+                        <form action="/iPoses3">
+                            <button class="pose_st_btn">GET STARTED</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="pose_col2">
+                <div class="Pose_row">
+                    <div class="pose_card">
+                        <img src="{{url_for('static', filename='Images/Corpse-pose.jpg')}}" alt="pose" class="pose_img">
+                        <h3>Corpse Pose</h3>
+                        <p>(Savasana)</p>
+                        <p id="para_pose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum fugit iusto ad quae molestias ut sapiente laborum adipisci dignissimos!</p>
+
+                        <form action="/iPoses4">
+                            <button class="pose_st_btn">GET STARTED</button>
+                        </form>
+                    </div>
+                    <div class="pose_card">
+                        <img src="{{url_for('static', filename='Images/Goddess-p.webp')}}" alt="pose" class="pose_img">
+                        <h3 id="head_h3">Goddess Pose</h3>
+                        <p>(Utkata konasana)</p>
+                        <p id="para_pose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum fugit iusto ad quae molestias ut sapiente laborum adipisci dignissimos!</p>
+
+                        <form action="/iPoses5">
+                            <button class="pose_st_btn">GET STARTED</button>
+                        </form>
+                    </div>
+                    <div class="pose_card">
+                        <img src="{{url_for('static', filename='Images/Cobra-Pose.webp')}}" alt="pose" class="pose_img">
+                        <h3>Cobras Pose</h3>
+                        <p>(Bhujangasana)</p>
+                        <p id="para_pose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum fugit iusto ad quae molestias ut sapiente laborum adipisci dignissimos!</p>
+
+                        <form action="/iPoses6">
+                            <button class="pose_st_btn">GET STARTED</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="train_btn_box">
+
+                    <form action="/Yoga">
+                      <button class="train_btn">Back</button>
+                    </form>
+
+                    <form action="/advance">
+                      <button class="train_btn">Next</button>
+                    </form>
+                  
+            </div>
+
+            
+       </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: goldenrod; */
+}
+
+.home_container{
+    width: 100%;
+    height: 150vh;
+    background-color: #e6f4fc;
+}
+
+.home_container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    width: 100%;
+    height: 60px;
+    background-color: #72c3f2;
+}
+
+.home_container nav h3{
+    font-weight: 600;
+    font-size: 40px;
+    /* color: orange; */
+    font-family: 'Anton', sans-serif;
+}
+
+.home_container nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home_container nav ul li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.home_container nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home_container nav ul li a:hover{ 
+   background-color: #063c7d;
+   border: 2px solid #063c7d;
+   color: #fff;
+}
+
+.log-in_btn{
+    margin-right: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    background: #063c7d;
+}
+
+.sig-in_btn{
+    margin-right: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    background: #063c7d;
+}
+
+
+
+/* pose_box */
+
+.pose_box{
+    width: 100%;
+    height: 110vh;
+    /* background-color: pink; */
+}
+
+.pose_box h2{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.pose_col1{
+    width: 100%;
+    height: 55vh;
+    /* background-color: rgb(243, 237, 135); */
+}
+
+.pose_col2{
+    width: 100%;
+    height: 55vh;
+    /* background-color: rgb(121, 245, 147); */
+}
+
+.Pose_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pose_card{
+    width: 280px;
+    height: 370px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.pose_card:hover{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+}
+
+.pose_img{
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.pose_card h3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+#head_h3{
+    font-size: 16px;
+}
+
+.pose_card p{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+}
+
+#para_pose{
+    text-align: center;
+    font-size: 10px;
+    color: #777575;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.pose_st_btn{
+    margin-left: 30%;
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pose_st_btn:hover{
+    background-color: rgb(3, 93, 3);
+}
+
+/* .train_btn_box{
+    display: flex;
+} */
+
+.train_btn{
+    margin-left: 43%;
+    margin-top: 40px;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(49, 174, 237);
+    border: 0;
+    box-shadow: -3px 3px 1px 2px rgb(9, 99, 144);
+}
+
+.train_btn:hover{
+    background-color: rgb(7, 167, 248);
+}

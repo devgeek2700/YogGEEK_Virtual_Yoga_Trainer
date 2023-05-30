@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results - YogiJi</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/aresults.css')}}">
+  <script type="text/javascript" src="{{url_for('static', filename='script/aresults2.js')}}"></script>  
+
+
+</head>
+<body>
+     
+    <section class="result_container">
+      <div class="comp_row">
+        <h3>Completed</h3>
+        <img src="{{url_for('static', filename='Images/target.gif')}}" class="target_gif">
+
+      </div>
+
+        <div class="res_row">
+
+          <div class="res_col1">
+            <img src="{{url_for('static', filename='Images/butterfly_comp.png')}}" class="extract_img"> 
+          </div>
+
+        <div class="res_col2">
+          <h2>Exercise Name: <span id="exr_name">Butterfly Pose</span></h2>
+          <p id="pose_dur">Level: <span id="exr_time">Advance</span></p>
+        <p id="pose_dur">Duration: <span id="exr_time">01:00</span></p>
+        <h1>TAKE A REST</h1>
+        <div>
+          <img src="{{url_for('static', filename='Images/clock.gif')}}" class="clock_gif">
+        </div>
+        <h4 class="exr_secs">30 <small>secs</small></h4>
+        <p>You will directed to the next Yoga Pose in just 30 secs</p>
+        </div>
+        </div>
+        
+      
+    </section>
+</body>
+</html>

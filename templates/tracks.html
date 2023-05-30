@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracks</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/tracks.css')}}">
+  <!-- <script type="text/javascript" src="{{url_for('static', filename='script/script.js')}}"></script>   -->
+
+
+</head>
+<body>
+     
+    <section class="track_container">
+        <h3>Yoga Poses Category</h3>
+        <div class="trac_row">
+            <div class="tra_col1">
+                <img src="{{url_for('static', filename='Images/cat_vid.jpg')}}" alt="gif" class="cat_gif">
+            </div>
+      <div class="tra_col2">
+        <form action="/Yoga">
+            <div class="tracks_box">
+                <div>
+                    <button class="track_btn">Weight Loss</button>
+                </div>
+                <div>
+                    <button class="track_btn">Pain Relief</button>
+                </div>
+                <div>
+                    <button class="track_btn">Posture Correction</button>
+                </div>
+                <div>
+                    <button class="track_btn">Reduce Anxiety/Stress</button>
+                </div>
+                <div>
+                    <button class="track_btn">Sleep Relax</button>
+                </div>
+                <div>
+                    <button class="track_btn">Back Pain</button>
+                </div>
+                <div>
+                    <button class="track_btn">Asthma Relief</button>
+                </div>
+            </div>
+            
+        </form>
+      </div>
+        </div>
+      
+    </section>
+</body>
+</html>

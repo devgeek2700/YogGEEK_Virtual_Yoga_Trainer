@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tutorials_container{
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(252, 231, 204);
+}
+
+.tutorials_container h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: brown;
+    font-family: 'Anton', sans-serif;
+}
+
+.training_box{
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 105vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);
+}
+
+.train_para{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+}
+
+.train_para p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-weight: 100;
+}
+
+.train_box1{
+    width: 100%;
+    margin-top: 20px;
+    height: 40vh;
+    background-color: #fff;
+}
+
+.train_para{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+}
+
+.train_btn_box{
+    width: 100%;
+    height: 10vh;
+}
+
+.train_btn{
+    margin-left: 43%;
+    margin-top: -10px;
+    width: 160px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #ef6b43;
+    border: 0;
+    box-shadow: -3px 3px 1px 2px orange;
+}
+
+.train_btn:hover{
+    background-color: #ef582a;
+}
+
+.train_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vid_info{
+    width: 420px;
+    height: 20px;
+    background-color: red;
+    margin-top: -6px;
+    display: flex;
+}
+
+.info_col1{
+    width: 33%;
+    color: #fff;
+    height:20px;
+    /* background-color: #23d5ab; */
+}
+
+.info_col1 p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.info_col1 .fa-video{
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.info_col2{
+    width: 33%;
+    height:20px;
+    /* background-color: #91d523; */
+    border: 3px solid #fff;
+    color: #fff;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.info_col2 .star{
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.info_col2 .fa-star{
+    font-size: 12px;
+}
+
+.info_col2 .fa-star-half-stroke{
+    font-size: 12px;
+}
+
+.info_col3{
+    width: 34%;
+    height:20px;
+    /* background-color: #8adaf2; */
+}
+
+.info_col3 p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-size: bolder;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: -1px;
+}
+
+#info2{
+    background-color: orange;
+}
+
+#info3{
+    background-color: #ffc107;
+}
+#info4{
+    background-color: rgb(138, 212, 27);
+}
+#info5{
+    background-color: rgb(87, 205, 241);
+}
+#info6{
+    background-color: rgb(215, 37, 215);
+}

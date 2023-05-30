@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.select_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(212, 249, 210);
+}
+
+.select_container h3{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    color: orange;
+}
+.select_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select_card{
+    width: 350px;
+    margin-top: 5%;
+    height: 70vh;
+    cursor: pointer;
+    background-color: #e0f5f9;
+    border-radius: 10px;
+    padding: 0 20px;
+    transition: transform 0.5;
+}
+
+.select_card:hover{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+
+.select_img{
+    width: 220px;
+    margin-left: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 220px;
+}
+
+.select_card h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.select_card p{
+    text-align: center;
+    font-size: 16px;
+    color: #656161;
+}
+
+.tut_btn{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(13, 118, 188);
+}
+
+#tut_arrow{
+    font-size: 25px;
+    margin-left: 20px;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.tut_btn:hover #tut_arrow{
+    /* background-color: rgb(9, 97, 156); */
+    width: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}

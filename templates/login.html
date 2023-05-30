@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - YogGEEK</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+<!-- Yoga_images/yog_logo_f.png -->
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/login.css')}}">
+  <!-- <script type="text/javascript" src="{{url_for('static', filename='script/index.js')}}"></script>   -->
+
+
+</head>
+<body>
+    <section class="login-container">
+        <div class="login-box">
+            <!-- header -->
+            <h3>LOGIN</h3>
+            <!-- img -->
+            <!-- <img src="ImagesWeb/login_ill.png" class="login-img"> -->
+            <img src="{{url_for('static', filename='Images/yogi_login.gif')}}" alt="bg_img" class="login-img">
+            <!-- contact inputs -->
+        <form method="POST">
+            <div class="contact-details-1">
+                <i class="fa-solid fa-envelope"></i> <input type="email" class="input-box"
+                    placeholder="Enter your Email" id="uemail" name="uemail" autocomplete="off">
+            </div>
+
+            <div class="contact-details-2">
+                <i class="fa-solid fa-lock"></i><input type="password" class="input-box"
+                    placeholder="Enter your Password" id="upass" name="upass" autocomplete="off">
+            </div>
+
+            <!-- remember box -->
+            <div class="check">
+                <input type="checkbox"> <span>Rememeber Me</span>
+            </div>
+            <!-- button -->
+            <button class="logn-btn">LOGIN</button>
+            <!-- icons-img -->
+            <p>Help YogiJi</p>
+            {% if current_user.is_authenticated %}
+            <div class="icons">
+                <form action="/logout">
+                    <button class="sign-btn">LOGOUT <span id="arrow">&#8594;</span></button>
+                </form>
+            </div>
+            {% else %}
+            <!-- sign up button -->
+            <form action="/register">
+                <button class="sign-btn">SIGN UP <span id="arrow">&#8594;</span></button>
+            </form>
+        </form>
+        </div>
+        {% endif %}
+
+         <!-- to popup the message of invalid Credentials -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category,message in messages %}
+                    <div class="alert alert-{{category}}" id="login_msg">{{message}}</div>
+                {% endfor %}
+            {% endif %}
+            {% endwith %}
+    </section>
+
+</body>
+</html>

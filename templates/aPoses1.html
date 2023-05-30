@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relvoved Pose- YogiJi</title>
+  <link rel="icon" href="{{url_for('static', filename='Images/yog_logo_f.png')}}" sizes="222x222">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/aPoses.css')}}">
+  <script type="text/javascript" src="{{url_for('static', filename='script/aPoses1.js')}}"></script>  
+
+
+</head>
+<body>
+     
+    <section class="yog_container">
+        <h3>Relvoved Pose</h3>
+        <div class="yog_row">
+          <div class="yog_col1">
+            <div class="yog_card">
+
+           <h4>Pose type: <span id="pose_text"> Moving the spine in a flexion and extension pattern.</span></h4>
+           <h4 id="two">Target Area: <span id="pose_text">The entire spine, from the neck to the lower back.</span></h4>
+
+            <div class="image_box">
+            <img src="{{url_for('static', filename='Images/revloved_vid.gif')}}" class="pose_vid">
+            </div>
+
+            <p id="pose_head">Benefits</p>
+            <p id="pose_head1"> Relieving tension in the spine and neck, massaging the internal organs</p>
+
+            <h1>Duartion: <span id="pose_dur">01:00</span></h1>
+          </div>
+        </div>
+
+      
+          <div class="yog_col2">
+            <h3 id="cam_para">Webcam View</h3>
+            
+            <div class="camera_box">
+              <img src="{{ url_for('avideo1') }}" width="650px" height="600px"/>
+          </div>
+
+          <div class="pose_btn_box">
+            <!-- add audio when button is click -->
+            
+            <audio id="mySong"><source src="{{url_for('static', filename='Images/let_go_sound.mp3')}}"></audio>
+              <button class="pose_start" id="play_song" onclick="play_song()">START</button>
+            
+
+            <form action="">
+              <button class="pose_next">RESTART</button>
+            </form>
+          </div>
+
+          
+
+          </div>
+        </div>
+        
+        
+      
+    </section>
+</body>
+</html>
