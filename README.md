@@ -86,44 +86,42 @@ This our Sem-4 mini project.
 
 
 
-
-
 ## Register page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/output_1.1%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/output_1.1%20(1).png?raw=true)
 
 ## Login page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/output_1.2%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/output_1.2%20(1).png?raw=true)
 
 ## Home page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/output_1.3%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/output_1.3%20(1).png?raw=true)
 
 ## Select page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/output_1.4%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/output_1.4%20(1).png?raw=true)
 
 ## Tulorials page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/output1.5%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/output1.5%20(1).png?raw=true)
 
 ## Tracks page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/OUTPUT1.6%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/OUTPUT1.6%20(1).png?raw=true)
 
 ## Level page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/OUTPUT1.7%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/OUTPUT1.7%20(1).png?raw=true)
 
 ## Practice page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/ouput1.8.jpeg?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/ouput1.8.jpeg?raw=true)
 
 
 ## Rest page
 
-![App Screenshot](https://github.com/devgeek2700/YogGEEK-Virtual-Yoga-Trainer/blob/master/output/output_1.9%20(1).png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/YogGEEK_Virtual_Yoga_Trainer/blob/master/output/output_1.9%20(1).png?raw=true)
 
 
 
