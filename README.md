@@ -39,7 +39,7 @@ webcam's frame that the pose is inaccurate.
 next pose will be automatically initiated. This flow will repeat till the last pose.
 
 
-This our Sem-4 mini project.
+This was our Sem-4 mini project.
 ## Objectives
 
  - Offer real-time feedback: The system should be able to analyze the user's posture and movements during yoga practice and provide real-time feedback to help the user improve their form and avoid injury.
