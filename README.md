@@ -128,10 +128,6 @@ This was our Sem-4 mini project.
 
 
 
-## Demo video
-
-<!-- ![App Screenshot](https://github.com/devgeek2700/Myntra_Clone/blob/master/output/demo_myntra_gif.gif?raw=true) -->
-
 ## Team Members
 
 | S.No. | Name          | Role                    | GitHub Username       |
