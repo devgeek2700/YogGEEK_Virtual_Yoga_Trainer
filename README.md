@@ -132,6 +132,15 @@ This was our Sem-4 mini project.
 
 <!-- ![App Screenshot](https://github.com/devgeek2700/Myntra_Clone/blob/master/output/demo_myntra_gif.gif?raw=true) -->
 
+## Team Members
+
+| S.No. | Name                | Role                   | GitHub Username      |
+|-------|---------------------|------------------------|----------------------|
+| 1.    |  Neha Singh  | Full Stack Web Developer        | @devgeek2700         |
+| 2.    | Shalaka Kadam      | Research and Designer   | @shalaka2603  |
+| 3.    | Amulya Shetty      | Product Designer   | @AmulyaShetty11      |
+
+
 
 
 ## Limitations
