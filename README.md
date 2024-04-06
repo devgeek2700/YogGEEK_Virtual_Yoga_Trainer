@@ -137,7 +137,7 @@ This was our Sem-4 mini project.
 | S.No. | Name                | Role                   | GitHub Username      |
 |-------|---------------------|------------------------|----------------------|
 | 1.    |  Neha Singh  | Full Stack Web Developer        | @devgeek2700         |
-| 2.    | Shalaka Kadam      | Research and Designer   | @shalaka2603  |
+| 2.    | Shalaka Kadam      | Research and Design   | @shalaka2603  |
 | 3.    | Amulya Shetty      | Product Designer   | @AmulyaShetty11      |
 
 
